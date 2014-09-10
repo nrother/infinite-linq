@@ -13,6 +13,6 @@ it.
 
 Obviously, operations like `Count()` won't work on infinite sequences.
 
-The idea came from some literature about Haskell. I was amazed how easy it
+The idea came from a lecture about Haskell. I was amazed how easy it
 is to calculate the first _n_ primes in Haskell, using some kind of _implicit_
 Sieve of Eratosthenes (http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
