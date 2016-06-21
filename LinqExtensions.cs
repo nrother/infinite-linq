@@ -44,7 +44,7 @@ namespace InfiniteLinq
             int p = e.First(); //this is prime
             yield return p;
 
-            foreach (var item in e.Skip(1).Where(x => x % p != 0))
+            foreach (var item in Primes(e.Skip(1).Where(x => x % p != 0)))
                 yield return item;
         }
     }
